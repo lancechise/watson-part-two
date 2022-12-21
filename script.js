@@ -28,7 +28,7 @@ if( holes ==3 && total === 9){
         console.log ("Good Game," +  player  + "  your  par was: 0");}
       else if( holes ==6 && total <18){
           console.log ("Great Job, " +  player  + "  your  par was -3");}
-             else if( holes ==3 && total >18){
+             else if( holes ==6 && total >18){
             console.log ("Nice try, " +  player  + "  your  par was + " + total + ".");
           }
 
